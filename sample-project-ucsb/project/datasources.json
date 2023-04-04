@@ -1,0 +1,64 @@
+[
+  {
+    "datasourceId": "global-clipping-osm-land",
+    "geo_type": "vector",
+    "formats": [
+      "subdivided"
+    ],
+    "classKeys": [],
+    "url": "https://d3p1dsef9f0gjr.cloudfront.net/"
+  },
+  {
+    "datasourceId": "global-clipping-eez-land-union",
+    "geo_type": "vector",
+    "formats": [
+      "subdivided"
+    ],
+    "classKeys": [],
+    "url": "https://d3muy0hbwp5qkl.cloudfront.net"
+  },
+  {
+    "datasourceId": "eez",
+    "geo_type": "vector",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": 1,
+          "sum": null,
+          "area": 3032525677797.563
+        }
+      }
+    },
+    "formats": [
+      "fgb"
+    ],
+    "layerName": "eez_mr_osm",
+    "classKeys": [],
+    "created": "2023-04-04T15:03:59.407Z",
+    "lastUpdated": "2023-04-04T15:03:59.407Z",
+    "src": "data/src/fsmSampleData/current-vector.gpkg",
+    "propertiesToKeep": []
+  },
+  {
+    "src": "data/src/fsmSampleData/current-raster/offshore/inputs/features/yesson_octocorals.tif",
+    "band": 1,
+    "geo_type": "raster",
+    "datasourceId": "octocorals",
+    "formats": [
+      "tif"
+    ],
+    "created": "2023-04-04T15:17:23.597Z",
+    "lastUpdated": "2023-04-04T15:17:23.597Z",
+    "keyStats": {
+      "total": {
+        "total": {
+          "sum": 432,
+          "count": null,
+          "area": null
+        }
+      }
+    },
+    "noDataValue": -3.3999999521443642e+38,
+    "measurementType": "quantitative"
+  }
+]
